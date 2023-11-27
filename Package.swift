@@ -4,10 +4,10 @@
 import PackageDescription
 
 let package = Package(
-  name: "abseil-swift",
+  name: "ukey2-abseil",
   products: [
     .library(
-      name: "abseil-swift",
+      name: "ukey2-abseil",
       targets: [
         "abseil",
       ]
