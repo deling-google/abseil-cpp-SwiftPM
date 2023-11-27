@@ -9,7 +9,7 @@ let package = Package(
     .library(
       name: "ukey2-abseil",
       targets: [
-        "abseil",
+        "ukey2-abseil",
       ]
     )
   ],
