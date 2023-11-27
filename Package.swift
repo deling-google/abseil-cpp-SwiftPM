@@ -16,7 +16,7 @@ let package = Package(
 
   targets: [
     .target(
-      name: "abseil",
+      name: "ukey2-abseil",
       path: ".",
       exclude: [
         // main functions
@@ -38,7 +38,7 @@ let package = Package(
     .testTarget(
       name: "build-test",
       dependencies: [
-        "abseil",
+        "ukey2-abseil",
       ],
       path: "SwiftPMTests/build-test"
     ),
